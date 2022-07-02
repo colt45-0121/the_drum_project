@@ -31,12 +31,12 @@ active_length = 0
 active_beat = 1
 beat_changed = True
 
-hi_hat = mixer.Sound('hi hat.WAV')
-snare = mixer.Sound('snare.WAV')
-kick = mixer.Sound('kick.WAV')
-crash = mixer.Sound('crash.WAV')
-clap = mixer.Sound('clap.WAV')
-floor_tom = mixer.Sound('tom.WAV')
+hi_hat = mixer.Sound('beats/hi hat.WAV')
+snare = mixer.Sound('beats/snare.WAV')
+kick = mixer.Sound('beats/kick.WAV')
+crash = mixer.Sound('beats/crash.WAV')
+clap = mixer.Sound('beats/clap.WAV')
+floor_tom = mixer.Sound('beats//tom.WAV')
 pygame.mixer.set_num_channels(instruments*3)
 
 
